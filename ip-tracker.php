@@ -1,7 +1,5 @@
 <?php
 
-require_once 'vendor/autoload.php';
-
 use MaxMind\Db\Reader;
 
 $reader = new Reader('path/to/GeoLite2-City.mmdb');
